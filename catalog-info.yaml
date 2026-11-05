@@ -14,7 +14,7 @@ metadata:
 spec:
   type: website
   lifecycle: production
-  owner: group:default/guests
+  owner: group:default/bitwarden-poc
   system: bitwarden-password-manager
 ---
 apiVersion: backstage.io/v1alpha1
@@ -30,7 +30,7 @@ metadata:
 spec:
   type: application
   lifecycle: production
-  owner: group:default/guests
+  owner: group:default/bitwarden-poc
   system: bitwarden-password-manager
 ---
 apiVersion: backstage.io/v1alpha1
@@ -46,7 +46,7 @@ metadata:
 spec:
   type: application
   lifecycle: production
-  owner: group:default/guests
+  owner: group:default/bitwarden-poc
   system: bitwarden-password-manager
 ---
 apiVersion: backstage.io/v1alpha1
@@ -62,5 +62,5 @@ metadata:
 spec:
   type: application
   lifecycle: production
-  owner: group:default/guests
+  owner: group:default/bitwarden-poc
   system: bitwarden-password-manager
