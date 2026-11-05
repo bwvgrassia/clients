@@ -1,0 +1,66 @@
+# Backstage descriptors for bwvgrassia/clients (fork of bitwarden/clients).
+# Place at the repo root as `catalog-info.yaml`.
+# The `bitwarden-password-manager` System is defined in the server repo's file.
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bitwarden-web
+  title: Bitwarden Web Vault
+  description: Browser-based web vault (Angular)
+  annotations:
+    github.com/project-slug: bwvgrassia/clients
+    backstage.io/source-location: url:https://github.com/bwvgrassia/clients/tree/main/apps/web/
+  tags: [typescript, angular, client]
+spec:
+  type: website
+  lifecycle: production
+  owner: group:default/guests
+  system: bitwarden-password-manager
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bitwarden-browser
+  title: Bitwarden Browser Extension
+  description: Browser extension for Chrome, Firefox, Safari, Edge, and others
+  annotations:
+    github.com/project-slug: bwvgrassia/clients
+    backstage.io/source-location: url:https://github.com/bwvgrassia/clients/tree/main/apps/browser/
+  tags: [typescript, angular, client]
+spec:
+  type: application
+  lifecycle: production
+  owner: group:default/guests
+  system: bitwarden-password-manager
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bitwarden-desktop
+  title: Bitwarden Desktop
+  description: Desktop application (Electron)
+  annotations:
+    github.com/project-slug: bwvgrassia/clients
+    backstage.io/source-location: url:https://github.com/bwvgrassia/clients/tree/main/apps/desktop/
+  tags: [typescript, electron, client]
+spec:
+  type: application
+  lifecycle: production
+  owner: group:default/guests
+  system: bitwarden-password-manager
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bitwarden-cli
+  title: Bitwarden CLI
+  description: Command-line interface
+  annotations:
+    github.com/project-slug: bwvgrassia/clients
+    backstage.io/source-location: url:https://github.com/bwvgrassia/clients/tree/main/apps/cli/
+  tags: [typescript, node, client]
+spec:
+  type: application
+  lifecycle: production
+  owner: group:default/guests
+  system: bitwarden-password-manager
