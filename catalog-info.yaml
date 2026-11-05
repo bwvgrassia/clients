@@ -8,7 +8,8 @@ metadata:
   title: Bitwarden Web Vault
   description: Browser-based web vault (Angular)
   annotations:
-    github.com/project-slug: bwvgrassia/clients
+    # CI/CD tab (GitHub Actions plugin) reads runs from upstream; forks have Actions disabled
+    github.com/project-slug: bitwarden/clients
     backstage.io/source-location: url:https://github.com/bwvgrassia/clients/tree/main/apps/web/
   tags: [typescript, angular, client]
 spec:
@@ -24,7 +25,8 @@ metadata:
   title: Bitwarden Browser Extension
   description: Browser extension for Chrome, Firefox, Safari, Edge, and others
   annotations:
-    github.com/project-slug: bwvgrassia/clients
+    # CI/CD tab (GitHub Actions plugin) reads runs from upstream; forks have Actions disabled
+    github.com/project-slug: bitwarden/clients
     backstage.io/source-location: url:https://github.com/bwvgrassia/clients/tree/main/apps/browser/
   tags: [typescript, angular, client]
 spec:
@@ -40,7 +42,8 @@ metadata:
   title: Bitwarden Desktop
   description: Desktop application (Electron)
   annotations:
-    github.com/project-slug: bwvgrassia/clients
+    # CI/CD tab (GitHub Actions plugin) reads runs from upstream; forks have Actions disabled
+    github.com/project-slug: bitwarden/clients
     backstage.io/source-location: url:https://github.com/bwvgrassia/clients/tree/main/apps/desktop/
   tags: [typescript, electron, client]
 spec:
@@ -56,7 +59,8 @@ metadata:
   title: Bitwarden CLI
   description: Command-line interface
   annotations:
-    github.com/project-slug: bwvgrassia/clients
+    # CI/CD tab (GitHub Actions plugin) reads runs from upstream; forks have Actions disabled
+    github.com/project-slug: bitwarden/clients
     backstage.io/source-location: url:https://github.com/bwvgrassia/clients/tree/main/apps/cli/
   tags: [typescript, node, client]
 spec:
